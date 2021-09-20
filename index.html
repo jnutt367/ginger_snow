@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animated snow flakes</title>
+</head>
+<style>
+    html,
+    body {
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
+        background-image: url("alien_ships_ginger.jpeg");
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    
+    body {
+        background-image: url("alien_ships_ginger.jpeg");
+    }
+    
+    .flake {
+        position: absolute;
+        width: 100px;
+        height: 100px;
+        background-size: cover;
+    }
+    
+    .flake1 {
+        background-image: url("https://assets.codepen.io/32887/flake1.svg")
+    }
+    
+    .flake2 {
+        background-image: url("https://assets.codepen.io/32887/flake2.svg");
+    }
+    
+    .flake3 {
+        background-image: url("https://assets.codepen.io/32887/flake3.svg");
+    }
+    
+    .flake4 {
+        background-image: url("https://assets.codepen.io/32887/flake4.svg");
+    }
+    
+    body {
+        background-image: url("alien_ships_ginger.jpeg");
+        /* fallback for old browsers */
+        background-image: url-webkit("alien_ships_ginger.jpeg");
+        /* Chrome 10-25, Safari 5.1-6 */
+        background-image: url("alien_ships_ginger.jpeg");
+        /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    }
+</style>
+
+<body>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.7.1/gsap.min.js" integrity="sha512-UxP+UhJaGRWuMG2YC6LPWYpFQnsSgnor0VUF3BHdD83PS/pOpN+FYbZmrYN+ISX8jnvgVUciqP/fILOXDjZSwg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="gsap.js"></script>
+</body>
+
+</html>
