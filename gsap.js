@@ -3,7 +3,7 @@
 // click anywhere to pause / unpause
 
 
-let numFlakes = 250
+let numFlakes = 50
 let width = window.innerWidth
 let height = window.innerHeight
 
